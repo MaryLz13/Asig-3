@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+body{
+    background-color: rgb(75, 132, 179);
+}
+.container{
+    height: 350px;
+    width: 350px;
+    background-color: #284589;
+    margin: 0 auto;
+/*     border: 1px solid #183474; */
+    border-radius: 5px;
+    margin-top: 4rem;
+}
+.form__login p, button{
+    background-color: #284589;
+    margin: 0 2rem;
+}
+
+.form__login{
+    margin: 10px 10px;
+    padding-top: 3rem;
+    /* border: 1px solid red; */
+}
+
+.tittleForm{
+    text-align: center;
+    padding-bottom: 1rem;
+    color:#bababa;
+    font-size: 1.5rem;
+}
+
+.form__login input{
+    padding: .5rem;
+    margin: .5rem auto;
+    border: none;
+    width: 100%;
+    border-radius: 2px;
+}
+.form__login input[type="submit"]{
+    background-color: #96b1f3;
+}
+.link_format{
+    text-align: center;
+}
+.link_format a{
+    color: #bababa;
+    font-size: .7rem;
+
+}
+
